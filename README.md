@@ -1,6 +1,7 @@
 # Northwind-Sales-Dashboard
 Dashboard analítico de vendas e logística baseado no dataset Northwind. Inclui Visão Executiva (KPIs, YTD), Análise Comercial (Performance de funcionários e elasticidade de desconto) e Visão Operacional, como processo comercial. Desenvolvido em Power BI com modelagem dimensional e DAX avançado para suporte à tomada de decisão.
 
+
 O dashboard foi estruturado para responder às seguintes perguntas:
 
 Qual é a receita total gerada, considerando os descontos aplicados?
@@ -16,11 +17,13 @@ Qual o custo total e médio de frete por pedido?
 Quais funcionários são responsáveis pelo maior volume de vendas?
 Quais regiões ou países concentram mais receita?
 
+
 Justificativa do Design Escolhido:
 
 A principal diretriz de design foi a clareza, pois o usuário precisa entender o estado do negócio em menos de 30 segundos ao abrir o dashboard. Optei por um tom de paleta escura com destaques em tons de verde e azul. Essa escolha reduz a fadiga visual em sessões longas de análise e cria contraste natural para os KPIs em destaque. Os cartões de KPI foram posicionados no topo da página, funcionando como resumo executivo, já os gráficos de tendência e distribuição ficam na sequência, aprofundando a leitura para quem precisa do detalhe.
 
 Páginas de tooltip foram criadas para enriquecer a experiência sem poluir o visual principal, ao passar o mouse sobre categorias, o usuário vê o frete detalhado por categoria sem sair da visão atual. A medida "Cor Top 2 Funcionários" foi criada especificamente para destacar visualmente os dois melhores vendedores, tornando o ranking imediatamente interpretável sem depender de leitura de valores. Títulos curtos e diretos, sem jargões. Espaçamento generoso entre visuais para evitar sensação de sobrecarga, especialmente em telas menores.
+
 
 Explicação dos indicadores de KPIs:
 
